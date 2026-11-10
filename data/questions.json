@@ -1,0 +1,1292 @@
+﻿[
+    {
+        "id":  "Q001",
+        "question":  "What is the OSI model?",
+        "correct_answer":  "The OSI model is a seven-layer networking framework that standardizes how data moves between systems from the physical layer to the application layer.",
+        "keywords":  [
+                         "osi",
+                         "layers",
+                         "network"
+                     ]
+    },
+    {
+        "id":  "Q002",
+        "question":  "Explain the transport layer in computer networks.",
+        "correct_answer":  "The transport layer manages end-to-end communication, segmentation, flow control, and reliability between hosts.",
+        "keywords":  [
+                         "transport",
+                         "layer",
+                         "end to end"
+                     ]
+    },
+    {
+        "id":  "Q003",
+        "question":  "What is the difference between TCP and UDP?",
+        "correct_answer":  "TCP is connection-oriented and reliable, while UDP is connectionless, faster, and does not guarantee delivery.",
+        "keywords":  [
+                         "tcp",
+                         "udp",
+                         "protocol"
+                     ]
+    },
+    {
+        "id":  "Q004",
+        "question":  "How does DNS resolution work?",
+        "correct_answer":  "DNS resolution translates a domain name into an IP address by querying recursive resolvers and authoritative name servers.",
+        "keywords":  [
+                         "dns",
+                         "domain",
+                         "ip"
+                     ]
+    },
+    {
+        "id":  "Q005",
+        "question":  "What is subnetting in networking?",
+        "correct_answer":  "Subnetting divides a network into smaller logical segments to improve address management and routing efficiency.",
+        "keywords":  [
+                         "subnetting",
+                         "network",
+                         "addresses"
+                     ]
+    },
+    {
+        "id":  "Q006",
+        "question":  "What is the role of a router in a network?",
+        "correct_answer":  "A router forwards packets between networks and chooses paths based on routing information.",
+        "keywords":  [
+                         "router",
+                         "routing",
+                         "packets"
+                     ]
+    },
+    {
+        "id":  "Q007",
+        "question":  "What is a MAC address?",
+        "correct_answer":  "A MAC address is a hardware identifier assigned to a network interface for local network communication.",
+        "keywords":  [
+                         "mac",
+                         "address",
+                         "hardware"
+                     ]
+    },
+    {
+        "id":  "Q008",
+        "question":  "How does HTTP differ from HTTPS?",
+        "correct_answer":  "HTTPS adds TLS encryption and certificate-based security on top of HTTP to protect web traffic.",
+        "keywords":  [
+                         "http",
+                         "https",
+                         "tls"
+                     ]
+    },
+    {
+        "id":  "Q009",
+        "question":  "What is packet switching?",
+        "correct_answer":  "Packet switching breaks data into packets that travel independently across a network before being reassembled.",
+        "keywords":  [
+                         "packet",
+                         "switching",
+                         "network"
+                     ]
+    },
+    {
+        "id":  "Q010",
+        "question":  "What is network latency?",
+        "correct_answer":  "Network latency is the delay between sending a request and receiving a response across a network.",
+        "keywords":  [
+                         "latency",
+                         "delay",
+                         "network"
+                     ]
+    },
+    {
+        "id":  "Q011",
+        "question":  "What is normalization in databases?",
+        "correct_answer":  "Normalization organizes database tables to reduce redundancy and improve data integrity by separating related data.",
+        "keywords":  [
+                         "normalization",
+                         "redundancy",
+                         "integrity"
+                     ]
+    },
+    {
+        "id":  "Q012",
+        "question":  "What is a primary key?",
+        "correct_answer":  "A primary key uniquely identifies each row in a table and cannot contain duplicate or null values.",
+        "keywords":  [
+                         "primary key",
+                         "unique",
+                         "row"
+                     ]
+    },
+    {
+        "id":  "Q013",
+        "question":  "What is a foreign key?",
+        "correct_answer":  "A foreign key links one table to another by referencing the primary key of the related table.",
+        "keywords":  [
+                         "foreign key",
+                         "relationship",
+                         "reference"
+                     ]
+    },
+    {
+        "id":  "Q014",
+        "question":  "Explain ACID properties in DBMS.",
+        "correct_answer":  "ACID stands for atomicity, consistency, isolation, and durability, which ensure reliable transaction processing.",
+        "keywords":  [
+                         "acid",
+                         "atomicity",
+                         "durability"
+                     ]
+    },
+    {
+        "id":  "Q015",
+        "question":  "What is indexing in a database?",
+        "correct_answer":  "Indexing creates a lookup structure that speeds up querying by reducing the amount of data scanned.",
+        "keywords":  [
+                         "index",
+                         "query",
+                         "performance"
+                     ]
+    },
+    {
+        "id":  "Q016",
+        "question":  "What is denormalization?",
+        "correct_answer":  "Denormalization intentionally combines data to reduce joins and improve read performance at the cost of redundancy.",
+        "keywords":  [
+                         "denormalization",
+                         "redundancy",
+                         "reads"
+                     ]
+    },
+    {
+        "id":  "Q017",
+        "question":  "What is a transaction in SQL?",
+        "correct_answer":  "A transaction is a logical unit of work that groups database operations so they succeed or fail together.",
+        "keywords":  [
+                         "transaction",
+                         "commit",
+                         "rollback"
+                     ]
+    },
+    {
+        "id":  "Q018",
+        "question":  "What is the difference between DELETE and TRUNCATE?",
+        "correct_answer":  "DELETE removes selected rows and logs them row by row, while TRUNCATE removes all rows more quickly and resets storage structures.",
+        "keywords":  [
+                         "delete",
+                         "truncate",
+                         "sql"
+                     ]
+    },
+    {
+        "id":  "Q019",
+        "question":  "What is database sharding?",
+        "correct_answer":  "Database sharding splits data across multiple machines or partitions to improve scalability and performance.",
+        "keywords":  [
+                         "sharding",
+                         "scalability",
+                         "partition"
+                     ]
+    },
+    {
+        "id":  "Q020",
+        "question":  "What is a SQL JOIN?",
+        "correct_answer":  "A SQL JOIN combines rows from two or more tables based on a related column between them.",
+        "keywords":  [
+                         "join",
+                         "tables",
+                         "sql"
+                     ]
+    },
+    {
+        "id":  "Q021",
+        "question":  "What is a process in an operating system?",
+        "correct_answer":  "A process is a program in execution with its own memory space, resources, and execution state.",
+        "keywords":  [
+                         "process",
+                         "execution",
+                         "memory"
+                     ]
+    },
+    {
+        "id":  "Q022",
+        "question":  "What is a thread?",
+        "correct_answer":  "A thread is the smallest unit of CPU execution within a process and can share memory with other threads in the same process.",
+        "keywords":  [
+                         "thread",
+                         "cpu",
+                         "shared"
+                     ]
+    },
+    {
+        "id":  "Q023",
+        "question":  "What is deadlock?",
+        "correct_answer":  "Deadlock is a situation where two or more processes wait indefinitely for resources held by each other.",
+        "keywords":  [
+                         "deadlock",
+                         "waiting",
+                         "resources"
+                     ]
+    },
+    {
+        "id":  "Q024",
+        "question":  "What is virtual memory?",
+        "correct_answer":  "Virtual memory is a memory management technique that gives processes the illusion of a large contiguous address space using disk as an extension of RAM.",
+        "keywords":  [
+                         "virtual memory",
+                         "ram",
+                         "disk"
+                     ]
+    },
+    {
+        "id":  "Q025",
+        "question":  "What is paging?",
+        "correct_answer":  "Paging divides memory into fixed-size pages and frames so processes can be loaded non-contiguously into physical memory.",
+        "keywords":  [
+                         "paging",
+                         "pages",
+                         "frames"
+                     ]
+    },
+    {
+        "id":  "Q026",
+        "question":  "What is CPU scheduling?",
+        "correct_answer":  "CPU scheduling decides which process or thread gets access to the CPU and in what order.",
+        "keywords":  [
+                         "cpu scheduling",
+                         "processes",
+                         "order"
+                     ]
+    },
+    {
+        "id":  "Q027",
+        "question":  "What is a semaphore?",
+        "correct_answer":  "A semaphore is a synchronization primitive used to control access to shared resources in concurrent systems.",
+        "keywords":  [
+                         "semaphore",
+                         "synchronization",
+                         "resource"
+                     ]
+    },
+    {
+        "id":  "Q028",
+        "question":  "What is context switching?",
+        "correct_answer":  "Context switching is the act of saving one process state and loading another so the CPU can switch execution.",
+        "keywords":  [
+                         "context switching",
+                         "state",
+                         "cpu"
+                     ]
+    },
+    {
+        "id":  "Q029",
+        "question":  "What is starvation in operating systems?",
+        "correct_answer":  "Starvation happens when a process waits indefinitely because resources or CPU time keep being given to others.",
+        "keywords":  [
+                         "starvation",
+                         "waiting",
+                         "scheduling"
+                     ]
+    },
+    {
+        "id":  "Q030",
+        "question":  "What is the difference between a process and a thread?",
+        "correct_answer":  "A process has its own memory and resources, while threads are lighter execution units that share a process context.",
+        "keywords":  [
+                         "process",
+                         "thread",
+                         "difference"
+                     ]
+    },
+    {
+        "id":  "Q031",
+        "question":  "What is an array?",
+        "correct_answer":  "An array is a linear data structure that stores elements in contiguous memory locations and allows index-based access.",
+        "keywords":  [
+                         "array",
+                         "index",
+                         "contiguous"
+                     ]
+    },
+    {
+        "id":  "Q032",
+        "question":  "What is a linked list?",
+        "correct_answer":  "A linked list is a linear structure made of nodes where each node stores data and a reference to the next node.",
+        "keywords":  [
+                         "linked list",
+                         "nodes",
+                         "pointer"
+                     ]
+    },
+    {
+        "id":  "Q033",
+        "question":  "What is a stack?",
+        "correct_answer":  "A stack is a last-in, first-out data structure where insertions and removals happen at the top.",
+        "keywords":  [
+                         "stack",
+                         "lifo",
+                         "top"
+                     ]
+    },
+    {
+        "id":  "Q034",
+        "question":  "What is a queue?",
+        "correct_answer":  "A queue is a first-in, first-out data structure where elements are added at the rear and removed from the front.",
+        "keywords":  [
+                         "queue",
+                         "fifo",
+                         "front"
+                     ]
+    },
+    {
+        "id":  "Q035",
+        "question":  "What is a hash table?",
+        "correct_answer":  "A hash table stores key-value pairs and uses a hash function to map keys to storage locations.",
+        "keywords":  [
+                         "hash table",
+                         "key",
+                         "hash"
+                     ]
+    },
+    {
+        "id":  "Q036",
+        "question":  "What is a binary tree?",
+        "correct_answer":  "A binary tree is a hierarchical structure where each node has at most two children, often called left and right.",
+        "keywords":  [
+                         "binary tree",
+                         "nodes",
+                         "children"
+                     ]
+    },
+    {
+        "id":  "Q037",
+        "question":  "What is a heap?",
+        "correct_answer":  "A heap is a complete binary tree that satisfies the heap property, such as max-heap or min-heap ordering.",
+        "keywords":  [
+                         "heap",
+                         "priority",
+                         "tree"
+                     ]
+    },
+    {
+        "id":  "Q038",
+        "question":  "What is graph traversal?",
+        "correct_answer":  "Graph traversal is the process of visiting nodes and edges in a graph systematically.",
+        "keywords":  [
+                         "graph traversal",
+                         "nodes",
+                         "edges"
+                     ]
+    },
+    {
+        "id":  "Q039",
+        "question":  "What is the difference between BFS and DFS?",
+        "correct_answer":  "BFS explores level by level using a queue, while DFS goes deep along a path before backtracking, often using a stack or recursion.",
+        "keywords":  [
+                         "bfs",
+                         "dfs",
+                         "traversal"
+                     ]
+    },
+    {
+        "id":  "Q040",
+        "question":  "What is dynamic programming?",
+        "correct_answer":  "Dynamic programming solves complex problems by breaking them into overlapping subproblems and storing intermediate results.",
+        "keywords":  [
+                         "dynamic programming",
+                         "subproblems",
+                         "memoization"
+                     ]
+    },
+    {
+        "id":  "Q041",
+        "question":  "What is binary search?",
+        "correct_answer":  "Binary search finds a target in a sorted collection by repeatedly dividing the search range in half.",
+        "keywords":  [
+                         "binary search",
+                         "sorted",
+                         "half"
+                     ]
+    },
+    {
+        "id":  "Q042",
+        "question":  "What is merge sort?",
+        "correct_answer":  "Merge sort divides the array, sorts each half recursively, and merges the sorted halves together.",
+        "keywords":  [
+                         "merge sort",
+                         "divide",
+                         "merge"
+                     ]
+    },
+    {
+        "id":  "Q043",
+        "question":  "What is quicksort?",
+        "correct_answer":  "Quicksort selects a pivot, partitions elements around it, and recursively sorts the partitions.",
+        "keywords":  [
+                         "quicksort",
+                         "pivot",
+                         "partition"
+                     ]
+    },
+    {
+        "id":  "Q044",
+        "question":  "What is Big O notation?",
+        "correct_answer":  "Big O notation describes the upper bound growth rate of an algorithm as input size increases.",
+        "keywords":  [
+                         "big o",
+                         "complexity",
+                         "growth"
+                     ]
+    },
+    {
+        "id":  "Q045",
+        "question":  "What is recursion?",
+        "correct_answer":  "Recursion is a technique where a function calls itself on smaller versions of the same problem until a base case stops it.",
+        "keywords":  [
+                         "recursion",
+                         "base case",
+                         "function"
+                     ]
+    },
+    {
+        "id":  "Q046",
+        "question":  "What is greedy algorithm design?",
+        "correct_answer":  "A greedy algorithm makes the locally optimal choice at each step in hopes of reaching a global optimum.",
+        "keywords":  [
+                         "greedy",
+                         "optimal",
+                         "local"
+                     ]
+    },
+    {
+        "id":  "Q047",
+        "question":  "What is divide and conquer?",
+        "correct_answer":  "Divide and conquer solves a problem by splitting it into smaller subproblems, solving them, and combining the results.",
+        "keywords":  [
+                         "divide and conquer",
+                         "split",
+                         "combine"
+                     ]
+    },
+    {
+        "id":  "Q048",
+        "question":  "What is Dijkstra algorithm?",
+        "correct_answer":  "Dijkstra algorithm finds the shortest path from a source node to all other nodes in a weighted graph with non-negative edges.",
+        "keywords":  [
+                         "dijkstra",
+                         "shortest path",
+                         "graph"
+                     ]
+    },
+    {
+        "id":  "Q049",
+        "question":  "What is backtracking?",
+        "correct_answer":  "Backtracking builds a solution incrementally and abandons a path as soon as it determines the path cannot lead to a valid answer.",
+        "keywords":  [
+                         "backtracking",
+                         "search",
+                         "constraint"
+                     ]
+    },
+    {
+        "id":  "Q050",
+        "question":  "What is memoization?",
+        "correct_answer":  "Memoization stores results of expensive subproblems so repeated computations can be reused efficiently.",
+        "keywords":  [
+                         "memoization",
+                         "cache",
+                         "subproblems"
+                     ]
+    },
+    {
+        "id":  "Q051",
+        "question":  "What is HTML?",
+        "correct_answer":  "HTML is the markup language used to structure content on the web using elements and tags.",
+        "keywords":  [
+                         "html",
+                         "markup",
+                         "tags"
+                     ]
+    },
+    {
+        "id":  "Q052",
+        "question":  "What is CSS?",
+        "correct_answer":  "CSS is the stylesheet language used to control the presentation, layout, and appearance of web pages.",
+        "keywords":  [
+                         "css",
+                         "styles",
+                         "layout"
+                     ]
+    },
+    {
+        "id":  "Q053",
+        "question":  "What is JavaScript?",
+        "correct_answer":  "JavaScript is a programming language used to add logic, interactivity, and dynamic behavior to web applications.",
+        "keywords":  [
+                         "javascript",
+                         "logic",
+                         "browser"
+                     ]
+    },
+    {
+        "id":  "Q054",
+        "question":  "What is the DOM?",
+        "correct_answer":  "The DOM is a browser representation of an HTML document that JavaScript can read and modify.",
+        "keywords":  [
+                         "dom",
+                         "document",
+                         "elements"
+                     ]
+    },
+    {
+        "id":  "Q055",
+        "question":  "What is responsive design?",
+        "correct_answer":  "Responsive design is the practice of making layouts adapt to different screen sizes and devices.",
+        "keywords":  [
+                         "responsive",
+                         "layout",
+                         "mobile"
+                     ]
+    },
+    {
+        "id":  "Q056",
+        "question":  "What is REST API?",
+        "correct_answer":  "A REST API is an interface that exposes resources through standard HTTP methods such as GET, POST, PUT, and DELETE.",
+        "keywords":  [
+                         "rest api",
+                         "http",
+                         "resources"
+                     ]
+    },
+    {
+        "id":  "Q057",
+        "question":  "What is CORS?",
+        "correct_answer":  "CORS is a browser security mechanism that controls whether a web page can access resources from another origin.",
+        "keywords":  [
+                         "cors",
+                         "origin",
+                         "browser"
+                     ]
+    },
+    {
+        "id":  "Q058",
+        "question":  "What is localStorage?",
+        "correct_answer":  "localStorage is a browser feature that stores key-value data persistently on the client side.",
+        "keywords":  [
+                         "localstorage",
+                         "browser",
+                         "key value"
+                     ]
+    },
+    {
+        "id":  "Q059",
+        "question":  "What is event bubbling?",
+        "correct_answer":  "Event bubbling is the propagation of an event from the target element up through its ancestor elements.",
+        "keywords":  [
+                         "event bubbling",
+                         "propagation",
+                         "dom"
+                     ]
+    },
+    {
+        "id":  "Q060",
+        "question":  "What is a CSS framework?",
+        "correct_answer":  "A CSS framework is a reusable library of styles and components that speeds up interface development.",
+        "keywords":  [
+                         "css framework",
+                         "components",
+                         "styles"
+                     ]
+    },
+    {
+        "id":  "Q061",
+        "question":  "What is a list in Python?",
+        "correct_answer":  "A list in Python is an ordered, mutable collection that can store multiple values.",
+        "keywords":  [
+                         "python list",
+                         "mutable",
+                         "ordered"
+                     ]
+    },
+    {
+        "id":  "Q062",
+        "question":  "What is a tuple in Python?",
+        "correct_answer":  "A tuple in Python is an ordered, immutable collection of items.",
+        "keywords":  [
+                         "tuple",
+                         "immutable",
+                         "python"
+                     ]
+    },
+    {
+        "id":  "Q063",
+        "question":  "What is a dictionary in Python?",
+        "correct_answer":  "A dictionary in Python stores key-value pairs and allows fast lookup by key.",
+        "keywords":  [
+                         "dictionary",
+                         "key value",
+                         "python"
+                     ]
+    },
+    {
+        "id":  "Q064",
+        "question":  "What is list comprehension?",
+        "correct_answer":  "List comprehension is a compact syntax for building a list from an iterable, optionally with filtering.",
+        "keywords":  [
+                         "list comprehension",
+                         "iterable",
+                         "python"
+                     ]
+    },
+    {
+        "id":  "Q065",
+        "question":  "What is a Python generator?",
+        "correct_answer":  "A Python generator yields values lazily one at a time instead of building the whole result in memory.",
+        "keywords":  [
+                         "generator",
+                         "yield",
+                         "python"
+                     ]
+    },
+    {
+        "id":  "Q066",
+        "question":  "What is exception handling in Python?",
+        "correct_answer":  "Exception handling lets Python programs catch and manage runtime errors using try, except, else, and finally.",
+        "keywords":  [
+                         "exception",
+                         "try except",
+                         "python"
+                     ]
+    },
+    {
+        "id":  "Q067",
+        "question":  "What is object-oriented programming in Python?",
+        "correct_answer":  "Object-oriented programming in Python organizes code around classes and objects that bundle state and behavior.",
+        "keywords":  [
+                         "oop",
+                         "classes",
+                         "objects"
+                     ]
+    },
+    {
+        "id":  "Q068",
+        "question":  "What is a decorator in Python?",
+        "correct_answer":  "A decorator is a callable that wraps another function or class to extend behavior without modifying the original code directly.",
+        "keywords":  [
+                         "decorator",
+                         "wrap",
+                         "function"
+                     ]
+    },
+    {
+        "id":  "Q069",
+        "question":  "What is lambda function in Python?",
+        "correct_answer":  "A lambda function is a small anonymous function defined with the lambda keyword.",
+        "keywords":  [
+                         "lambda",
+                         "anonymous",
+                         "function"
+                     ]
+    },
+    {
+        "id":  "Q070",
+        "question":  "What is the difference between append and extend in Python?",
+        "correct_answer":  "append adds one item to the end of a list, while extend adds each item from another iterable.",
+        "keywords":  [
+                         "append",
+                         "extend",
+                         "list"
+                     ]
+    },
+    {
+        "id":  "Q071",
+        "question":  "What is supervised learning?",
+        "correct_answer":  "Supervised learning trains a model on labeled data so it can map inputs to known outputs.",
+        "keywords":  [
+                         "supervised",
+                         "labeled",
+                         "model"
+                     ]
+    },
+    {
+        "id":  "Q072",
+        "question":  "What is unsupervised learning?",
+        "correct_answer":  "Unsupervised learning finds structure or patterns in unlabeled data.",
+        "keywords":  [
+                         "unsupervised",
+                         "patterns",
+                         "unlabeled"
+                     ]
+    },
+    {
+        "id":  "Q073",
+        "question":  "What is overfitting?",
+        "correct_answer":  "Overfitting occurs when a model learns the training data too closely and performs poorly on unseen data.",
+        "keywords":  [
+                         "overfitting",
+                         "generalization",
+                         "training"
+                     ]
+    },
+    {
+        "id":  "Q074",
+        "question":  "What is underfitting?",
+        "correct_answer":  "Underfitting happens when a model is too simple to capture the underlying pattern in the data.",
+        "keywords":  [
+                         "underfitting",
+                         "simple",
+                         "model"
+                     ]
+    },
+    {
+        "id":  "Q075",
+        "question":  "What is cross validation?",
+        "correct_answer":  "Cross validation evaluates a model by training and testing it across multiple data splits.",
+        "keywords":  [
+                         "cross validation",
+                         "folds",
+                         "evaluation"
+                     ]
+    },
+    {
+        "id":  "Q076",
+        "question":  "What is feature engineering?",
+        "correct_answer":  "Feature engineering is the process of creating, transforming, or selecting input variables to improve model performance.",
+        "keywords":  [
+                         "feature engineering",
+                         "features",
+                         "model"
+                     ]
+    },
+    {
+        "id":  "Q077",
+        "question":  "What is precision and recall?",
+        "correct_answer":  "Precision measures how many predicted positives are correct, while recall measures how many actual positives are found.",
+        "keywords":  [
+                         "precision",
+                         "recall",
+                         "classification"
+                     ]
+    },
+    {
+        "id":  "Q078",
+        "question":  "What is logistic regression?",
+        "correct_answer":  "Logistic regression is a classification algorithm that models the probability of a categorical outcome.",
+        "keywords":  [
+                         "logistic regression",
+                         "probability",
+                         "classification"
+                     ]
+    },
+    {
+        "id":  "Q079",
+        "question":  "What is random forest?",
+        "correct_answer":  "Random forest is an ensemble method that combines many decision trees to improve predictive performance and robustness.",
+        "keywords":  [
+                         "random forest",
+                         "trees",
+                         "ensemble"
+                     ]
+    },
+    {
+        "id":  "Q080",
+        "question":  "What is gradient descent?",
+        "correct_answer":  "Gradient descent is an optimization method that updates model parameters step by step to minimize a loss function.",
+        "keywords":  [
+                         "gradient descent",
+                         "optimization",
+                         "loss"
+                     ]
+    },
+    {
+        "id":  "Q081",
+        "question":  "What is cloud computing?",
+        "correct_answer":  "Cloud computing delivers computing services such as servers, storage, and software over the internet on demand.",
+        "keywords":  [
+                         "cloud computing",
+                         "internet",
+                         "services"
+                     ]
+    },
+    {
+        "id":  "Q082",
+        "question":  "What is virtualization?",
+        "correct_answer":  "Virtualization creates virtual versions of computing resources so multiple isolated systems can share one physical machine.",
+        "keywords":  [
+                         "virtualization",
+                         "virtual machines",
+                         "hardware"
+                     ]
+    },
+    {
+        "id":  "Q083",
+        "question":  "What is containerization?",
+        "correct_answer":  "Containerization packages an application and its dependencies into a lightweight, portable unit.",
+        "keywords":  [
+                         "containerization",
+                         "portable",
+                         "dependencies"
+                     ]
+    },
+    {
+        "id":  "Q084",
+        "question":  "What is Docker?",
+        "correct_answer":  "Docker is a platform for building, packaging, and running containers.",
+        "keywords":  [
+                         "docker",
+                         "containers",
+                         "images"
+                     ]
+    },
+    {
+        "id":  "Q085",
+        "question":  "What is Kubernetes?",
+        "correct_answer":  "Kubernetes is an orchestration platform that automates deployment, scaling, and management of containers.",
+        "keywords":  [
+                         "kubernetes",
+                         "orchestration",
+                         "containers"
+                     ]
+    },
+    {
+        "id":  "Q086",
+        "question":  "What is serverless computing?",
+        "correct_answer":  "Serverless computing runs code on demand without requiring developers to manage servers directly.",
+        "keywords":  [
+                         "serverless",
+                         "functions",
+                         "managed"
+                     ]
+    },
+    {
+        "id":  "Q087",
+        "question":  "What is auto scaling?",
+        "correct_answer":  "Auto scaling automatically increases or decreases compute resources based on traffic or workload.",
+        "keywords":  [
+                         "auto scaling",
+                         "resources",
+                         "traffic"
+                     ]
+    },
+    {
+        "id":  "Q088",
+        "question":  "What is load balancing?",
+        "correct_answer":  "Load balancing distributes traffic across multiple servers to improve availability and performance.",
+        "keywords":  [
+                         "load balancing",
+                         "traffic",
+                         "servers"
+                     ]
+    },
+    {
+        "id":  "Q089",
+        "question":  "What is infrastructure as code?",
+        "correct_answer":  "Infrastructure as code manages infrastructure through versioned configuration files instead of manual setup.",
+        "keywords":  [
+                         "infrastructure as code",
+                         "automation",
+                         "configuration"
+                     ]
+    },
+    {
+        "id":  "Q090",
+        "question":  "What is the difference between IaaS and PaaS?",
+        "correct_answer":  "IaaS provides raw infrastructure resources, while PaaS provides a managed platform for building and deploying applications.",
+        "keywords":  [
+                         "iaas",
+                         "paas",
+                         "cloud"
+                     ]
+    },
+    {
+        "id":  "Q091",
+        "question":  "What is encryption?",
+        "correct_answer":  "Encryption converts readable data into protected ciphertext so only authorized parties can recover it with the correct key.",
+        "keywords":  [
+                         "encryption",
+                         "ciphertext",
+                         "key"
+                     ]
+    },
+    {
+        "id":  "Q092",
+        "question":  "What is hashing?",
+        "correct_answer":  "Hashing converts data into a fixed-length digest used for integrity checks and secure comparisons.",
+        "keywords":  [
+                         "hashing",
+                         "digest",
+                         "integrity"
+                     ]
+    },
+    {
+        "id":  "Q093",
+        "question":  "What is phishing?",
+        "correct_answer":  "Phishing is a social engineering attack that tricks users into revealing credentials or sensitive information.",
+        "keywords":  [
+                         "phishing",
+                         "social engineering",
+                         "credentials"
+                     ]
+    },
+    {
+        "id":  "Q094",
+        "question":  "What is multi-factor authentication?",
+        "correct_answer":  "Multi-factor authentication requires two or more independent verification factors to confirm identity.",
+        "keywords":  [
+                         "multi factor authentication",
+                         "identity",
+                         "security"
+                     ]
+    },
+    {
+        "id":  "Q095",
+        "question":  "What is SQL injection?",
+        "correct_answer":  "SQL injection is an attack that manipulates database queries by inserting malicious SQL through user input.",
+        "keywords":  [
+                         "sql injection",
+                         "database",
+                         "input"
+                     ]
+    },
+    {
+        "id":  "Q096",
+        "question":  "What is cross-site scripting?",
+        "correct_answer":  "Cross-site scripting is a vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users.",
+        "keywords":  [
+                         "cross site scripting",
+                         "xss",
+                         "scripts"
+                     ]
+    },
+    {
+        "id":  "Q097",
+        "question":  "What is a firewall?",
+        "correct_answer":  "A firewall filters network traffic based on security rules to allow or block connections.",
+        "keywords":  [
+                         "firewall",
+                         "traffic",
+                         "rules"
+                     ]
+    },
+    {
+        "id":  "Q098",
+        "question":  "What is public key cryptography?",
+        "correct_answer":  "Public key cryptography uses a public key for encryption or verification and a private key for decryption or signing.",
+        "keywords":  [
+                         "public key cryptography",
+                         "public key",
+                         "private key"
+                     ]
+    },
+    {
+        "id":  "Q099",
+        "question":  "What is a VPN?",
+        "correct_answer":  "A VPN creates an encrypted tunnel between a device and a remote network over the internet.",
+        "keywords":  [
+                         "vpn",
+                         "encrypted tunnel",
+                         "network"
+                     ]
+    },
+    {
+        "id":  "Q100",
+        "question":  "What is least privilege principle?",
+        "correct_answer":  "The principle of least privilege means users and systems should have only the access necessary to perform their tasks.",
+        "keywords":  [
+                         "least privilege",
+                         "access control",
+                         "security"
+                     ]
+    },
+    {
+        "id":  "Q101",
+        "question":  "What is version control?",
+        "correct_answer":  "Version control tracks changes to code over time so teams can collaborate, review history, and restore earlier versions.",
+        "keywords":  [
+                         "version control",
+                         "history",
+                         "collaboration"
+                     ]
+    },
+    {
+        "id":  "Q102",
+        "question":  "What is Git branching?",
+        "correct_answer":  "Git branching lets developers create isolated lines of development for features, fixes, or experiments.",
+        "keywords":  [
+                         "git branching",
+                         "branches",
+                         "git"
+                     ]
+    },
+    {
+        "id":  "Q103",
+        "question":  "What is code review?",
+        "correct_answer":  "Code review is the practice of examining code changes to improve quality, correctness, and maintainability.",
+        "keywords":  [
+                         "code review",
+                         "quality",
+                         "changes"
+                     ]
+    },
+    {
+        "id":  "Q104",
+        "question":  "What is continuous integration?",
+        "correct_answer":  "Continuous integration automatically builds and tests code changes frequently so issues are caught early.",
+        "keywords":  [
+                         "continuous integration",
+                         "build",
+                         "tests"
+                     ]
+    },
+    {
+        "id":  "Q105",
+        "question":  "What is continuous delivery?",
+        "correct_answer":  "Continuous delivery keeps software in a releasable state so deployments can happen quickly and safely.",
+        "keywords":  [
+                         "continuous delivery",
+                         "release",
+                         "deployment"
+                     ]
+    },
+    {
+        "id":  "Q106",
+        "question":  "What is unit testing?",
+        "correct_answer":  "Unit testing verifies that small pieces of code behave correctly in isolation.",
+        "keywords":  [
+                         "unit testing",
+                         "isolation",
+                         "tests"
+                     ]
+    },
+    {
+        "id":  "Q107",
+        "question":  "What is integration testing?",
+        "correct_answer":  "Integration testing checks whether multiple components work together correctly.",
+        "keywords":  [
+                         "integration testing",
+                         "components",
+                         "tests"
+                     ]
+    },
+    {
+        "id":  "Q108",
+        "question":  "What is refactoring?",
+        "correct_answer":  "Refactoring improves the internal structure of code without changing its external behavior.",
+        "keywords":  [
+                         "refactoring",
+                         "maintainability",
+                         "code"
+                     ]
+    },
+    {
+        "id":  "Q109",
+        "question":  "What is design pattern?",
+        "correct_answer":  "A design pattern is a reusable solution template for a common software design problem.",
+        "keywords":  [
+                         "design pattern",
+                         "reusable",
+                         "software"
+                     ]
+    },
+    {
+        "id":  "Q110",
+        "question":  "What is technical debt?",
+        "correct_answer":  "Technical debt is the future cost created by choosing a quick or limited solution instead of a cleaner long-term design.",
+        "keywords":  [
+                         "technical debt",
+                         "tradeoff",
+                         "maintenance"
+                     ]
+    },
+    {
+        "id":  "Q111",
+        "question":  "What is CPU cache?",
+        "correct_answer":  "CPU cache is a small, fast memory near the processor that stores frequently used data and instructions to reduce access time.",
+        "keywords":  [
+                         "cpu cache",
+                         "memory",
+                         "processor"
+                     ]
+    },
+    {
+        "id":  "Q112",
+        "question":  "What is pipelining in processors?",
+        "correct_answer":  "Pipelining overlaps instruction stages so multiple instructions can be processed concurrently in different phases.",
+        "keywords":  [
+                         "pipelining",
+                         "instructions",
+                         "stages"
+                     ]
+    },
+    {
+        "id":  "Q113",
+        "question":  "What is RISC architecture?",
+        "correct_answer":  "RISC architecture uses a reduced set of simple instructions designed for fast execution.",
+        "keywords":  [
+                         "risc",
+                         "instructions",
+                         "architecture"
+                     ]
+    },
+    {
+        "id":  "Q114",
+        "question":  "What is CISC architecture?",
+        "correct_answer":  "CISC architecture uses a richer set of more complex instructions that can perform multiple operations in one command.",
+        "keywords":  [
+                         "cisc",
+                         "complex instructions",
+                         "architecture"
+                     ]
+    },
+    {
+        "id":  "Q115",
+        "question":  "What is instruction set architecture?",
+        "correct_answer":  "Instruction set architecture defines the machine-level instructions, registers, data types, and behavior visible to software.",
+        "keywords":  [
+                         "instruction set architecture",
+                         "isa",
+                         "software"
+                     ]
+    },
+    {
+        "id":  "Q116",
+        "question":  "What is cache coherence?",
+        "correct_answer":  "Cache coherence ensures multiple caches in a system maintain a consistent view of shared memory.",
+        "keywords":  [
+                         "cache coherence",
+                         "shared memory",
+                         "caches"
+                     ]
+    },
+    {
+        "id":  "Q117",
+        "question":  "What is parallel processing?",
+        "correct_answer":  "Parallel processing uses multiple computing units at the same time to solve tasks faster.",
+        "keywords":  [
+                         "parallel processing",
+                         "multiple cores",
+                         "performance"
+                     ]
+    },
+    {
+        "id":  "Q118",
+        "question":  "What is SIMD?",
+        "correct_answer":  "SIMD stands for single instruction, multiple data and allows one instruction to operate on many data values at once.",
+        "keywords":  [
+                         "simd",
+                         "vector",
+                         "data"
+                     ]
+    },
+    {
+        "id":  "Q119",
+        "question":  "What is bus in computer architecture?",
+        "correct_answer":  "A bus is a communication pathway that transfers data, addresses, and control signals between hardware components.",
+        "keywords":  [
+                         "bus",
+                         "communication",
+                         "hardware"
+                     ]
+    },
+    {
+        "id":  "Q120",
+        "question":  "What is clock speed?",
+        "correct_answer":  "Clock speed is the rate at which a processor cycles through operations, commonly measured in hertz.",
+        "keywords":  [
+                         "clock speed",
+                         "processor",
+                         "hertz"
+                     ]
+    },
+    {
+        "id":  "Q121",
+        "question":  "How do Python functions work?",
+        "correct_answer":  "A Python function is a reusable block of code defined with def that can accept inputs, perform logic, and return a result.",
+        "keywords":  [
+                         "python functions",
+                         "def",
+                         "return"
+                     ]
+    },
+    {
+        "id":  "Q122",
+        "question":  "What is inheritance in Python?",
+        "correct_answer":  "Inheritance in Python lets a class reuse and extend the attributes and methods of another class.",
+        "keywords":  [
+                         "inheritance",
+                         "python classes",
+                         "oop"
+                     ]
+    },
+    {
+        "id":  "Q123",
+        "question":  "What is list slicing in Python?",
+        "correct_answer":  "List slicing in Python extracts a portion of a list using start, stop, and step indices.",
+        "keywords":  [
+                         "list slicing",
+                         "python list",
+                         "indices"
+                     ]
+    },
+    {
+        "id":  "Q124",
+        "question":  "What is binary search tree?",
+        "correct_answer":  "A binary search tree is a binary tree in which each node stores a value greater than all values in its left subtree and less than all values in its right subtree.",
+        "keywords":  [
+                         "binary search tree",
+                         "bst",
+                         "tree"
+                     ]
+    },
+    {
+        "id":  "Q125",
+        "question":  "What is recursion in DSA?",
+        "correct_answer":  "Recursion in DSA is a problem-solving technique where a function solves a smaller instance of the same problem until a base case is reached.",
+        "keywords":  [
+                         "recursion",
+                         "dsa",
+                         "base case"
+                     ]
+    },
+    {
+        "id":  "Q126",
+        "question":  "What is time complexity?",
+        "correct_answer":  "Time complexity describes how the running time of an algorithm grows as the input size increases.",
+        "keywords":  [
+                         "time complexity",
+                         "algorithm",
+                         "big o"
+                     ]
+    },
+    {
+        "id":  "Q127",
+        "question":  "What is CSS Flexbox?",
+        "correct_answer":  "CSS Flexbox is a layout model that arranges elements in a flexible row or column and makes alignment and spacing easier.",
+        "keywords":  [
+                         "css flexbox",
+                         "layout",
+                         "alignment"
+                     ]
+    },
+    {
+        "id":  "Q128",
+        "question":  "What is JavaScript event delegation?",
+        "correct_answer":  "JavaScript event delegation attaches one event listener to a parent element so it can handle events from child elements through bubbling.",
+        "keywords":  [
+                         "javascript",
+                         "event delegation",
+                         "bubbling"
+                     ]
+    },
+    {
+        "id":  "Q129",
+        "question":  "What is responsive web design?",
+        "correct_answer":  "Responsive web design is the practice of building interfaces that adapt smoothly to different screen sizes and devices.",
+        "keywords":  [
+                         "responsive web design",
+                         "media queries",
+                         "layout"
+                     ]
+    }
+]

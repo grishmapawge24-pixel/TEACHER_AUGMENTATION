@@ -1,0 +1,246 @@
+id,question,correct_answer,keywords
+Q001,What is the OSI model?,The OSI model is a seven-layer networking framework that standardizes how data moves between systems from the physical layer to the application layer.,osi|layers|network
+Q002,Explain the transport layer in computer networks.,"The transport layer manages end-to-end communication, segmentation, flow control, and reliability between hosts.",transport|layer|end to end
+Q003,What is the difference between TCP and UDP?,"TCP is connection-oriented and reliable, while UDP is connectionless, faster, and does not guarantee delivery.",tcp|udp|protocol
+Q004,How does DNS resolution work?,DNS resolution translates a domain name into an IP address by querying recursive resolvers and authoritative name servers.,dns|domain|ip
+Q005,What is subnetting in networking?,Subnetting divides a network into smaller logical segments to improve address management and routing efficiency.,subnetting|network|addresses
+Q006,What is the role of a router in a network?,A router forwards packets between networks and chooses paths based on routing information.,router|routing|packets
+Q007,What is a MAC address?,A MAC address is a hardware identifier assigned to a network interface for local network communication.,mac|address|hardware
+Q008,How does HTTP differ from HTTPS?,HTTPS adds TLS encryption and certificate-based security on top of HTTP to protect web traffic.,http|https|tls
+Q009,What is packet switching?,Packet switching breaks data into packets that travel independently across a network before being reassembled.,packet|switching|network
+Q010,What is network latency?,Network latency is the delay between sending a request and receiving a response across a network.,latency|delay|network
+Q011,What is normalization in databases?,Normalization organizes database tables to reduce redundancy and improve data integrity by separating related data.,normalization|redundancy|integrity
+Q012,What is a primary key?,A primary key uniquely identifies each row in a table and cannot contain duplicate or null values.,primary key|unique|row
+Q013,What is a foreign key?,A foreign key links one table to another by referencing the primary key of the related table.,foreign key|relationship|reference
+Q014,Explain ACID properties in DBMS.,"ACID stands for atomicity, consistency, isolation, and durability, which ensure reliable transaction processing.",acid|atomicity|durability
+Q015,What is indexing in a database?,Indexing creates a lookup structure that speeds up querying by reducing the amount of data scanned.,index|query|performance
+Q016,What is denormalization?,Denormalization intentionally combines data to reduce joins and improve read performance at the cost of redundancy.,denormalization|redundancy|reads
+Q017,What is a transaction in SQL?,A transaction is a logical unit of work that groups database operations so they succeed or fail together.,transaction|commit|rollback
+Q018,What is the difference between DELETE and TRUNCATE?,"DELETE removes selected rows and logs them row by row, while TRUNCATE removes all rows more quickly and resets storage structures.",delete|truncate|sql
+Q019,What is database sharding?,Database sharding splits data across multiple machines or partitions to improve scalability and performance.,sharding|scalability|partition
+Q020,What is a SQL JOIN?,A SQL JOIN combines rows from two or more tables based on a related column between them.,join|tables|sql
+Q021,What is a process in an operating system?,"A process is a program in execution with its own memory space, resources, and execution state.",process|execution|memory
+Q022,What is a thread?,A thread is the smallest unit of CPU execution within a process and can share memory with other threads in the same process.,thread|cpu|shared
+Q023,What is deadlock?,Deadlock is a situation where two or more processes wait indefinitely for resources held by each other.,deadlock|waiting|resources
+Q024,What is virtual memory?,Virtual memory is a memory management technique that gives processes the illusion of a large contiguous address space using disk as an extension of RAM.,virtual memory|ram|disk
+Q025,What is paging?,Paging divides memory into fixed-size pages and frames so processes can be loaded non-contiguously into physical memory.,paging|pages|frames
+Q026,What is CPU scheduling?,CPU scheduling decides which process or thread gets access to the CPU and in what order.,cpu scheduling|processes|order
+Q027,What is a semaphore?,A semaphore is a synchronization primitive used to control access to shared resources in concurrent systems.,semaphore|synchronization|resource
+Q028,What is context switching?,Context switching is the act of saving one process state and loading another so the CPU can switch execution.,context switching|state|cpu
+Q029,What is starvation in operating systems?,Starvation happens when a process waits indefinitely because resources or CPU time keep being given to others.,starvation|waiting|scheduling
+Q030,What is the difference between a process and a thread?,"A process has its own memory and resources, while threads are lighter execution units that share a process context.",process|thread|difference
+Q031,What is an array?,An array is a linear data structure that stores elements in contiguous memory locations and allows index-based access.,array|index|contiguous
+Q032,What is a linked list?,A linked list is a linear structure made of nodes where each node stores data and a reference to the next node.,linked list|nodes|pointer
+Q033,What is a stack?,"A stack is a last-in, first-out data structure where insertions and removals happen at the top.",stack|lifo|top
+Q034,What is a queue?,"A queue is a first-in, first-out data structure where elements are added at the rear and removed from the front.",queue|fifo|front
+Q035,What is a hash table?,A hash table stores key-value pairs and uses a hash function to map keys to storage locations.,hash table|key|hash
+Q036,What is a binary tree?,"A binary tree is a hierarchical structure where each node has at most two children, often called left and right.",binary tree|nodes|children
+Q037,What is a heap?,"A heap is a complete binary tree that satisfies the heap property, such as max-heap or min-heap ordering.",heap|priority|tree
+Q038,What is graph traversal?,Graph traversal is the process of visiting nodes and edges in a graph systematically.,graph traversal|nodes|edges
+Q039,What is the difference between BFS and DFS?,"BFS explores level by level using a queue, while DFS goes deep along a path before backtracking, often using a stack or recursion.",bfs|dfs|traversal
+Q040,What is dynamic programming?,Dynamic programming solves complex problems by breaking them into overlapping subproblems and storing intermediate results.,dynamic programming|subproblems|memoization
+Q041,What is binary search?,Binary search finds a target in a sorted collection by repeatedly dividing the search range in half.,binary search|sorted|half
+Q042,What is merge sort?,"Merge sort divides the array, sorts each half recursively, and merges the sorted halves together.",merge sort|divide|merge
+Q043,What is quicksort?,"Quicksort selects a pivot, partitions elements around it, and recursively sorts the partitions.",quicksort|pivot|partition
+Q044,What is Big O notation?,Big O notation describes the upper bound growth rate of an algorithm as input size increases.,big o|complexity|growth
+Q045,What is recursion?,Recursion is a technique where a function calls itself on smaller versions of the same problem until a base case stops it.,recursion|base case|function
+Q046,What is greedy algorithm design?,A greedy algorithm makes the locally optimal choice at each step in hopes of reaching a global optimum.,greedy|optimal|local
+Q047,What is divide and conquer?,"Divide and conquer solves a problem by splitting it into smaller subproblems, solving them, and combining the results.",divide and conquer|split|combine
+Q048,What is Dijkstra algorithm?,Dijkstra algorithm finds the shortest path from a source node to all other nodes in a weighted graph with non-negative edges.,dijkstra|shortest path|graph
+Q049,What is backtracking?,Backtracking builds a solution incrementally and abandons a path as soon as it determines the path cannot lead to a valid answer.,backtracking|search|constraint
+Q050,What is memoization?,Memoization stores results of expensive subproblems so repeated computations can be reused efficiently.,memoization|cache|subproblems
+Q051,What is HTML?,HTML is the markup language used to structure content on the web using elements and tags.,html|markup|tags
+Q052,What is CSS?,"CSS is the stylesheet language used to control the presentation, layout, and appearance of web pages.",css|styles|layout
+Q053,What is JavaScript?,"JavaScript is a programming language used to add logic, interactivity, and dynamic behavior to web applications.",javascript|logic|browser
+Q054,What is the DOM?,The DOM is a browser representation of an HTML document that JavaScript can read and modify.,dom|document|elements
+Q055,What is responsive design?,Responsive design is the practice of making layouts adapt to different screen sizes and devices.,responsive|layout|mobile
+Q056,What is REST API?,"A REST API is an interface that exposes resources through standard HTTP methods such as GET, POST, PUT, and DELETE.",rest api|http|resources
+Q057,What is CORS?,CORS is a browser security mechanism that controls whether a web page can access resources from another origin.,cors|origin|browser
+Q058,What is localStorage?,localStorage is a browser feature that stores key-value data persistently on the client side.,localstorage|browser|key value
+Q059,What is event bubbling?,Event bubbling is the propagation of an event from the target element up through its ancestor elements.,event bubbling|propagation|dom
+Q060,What is a CSS framework?,A CSS framework is a reusable library of styles and components that speeds up interface development.,css framework|components|styles
+Q061,What is a list in Python?,"A list in Python is an ordered, mutable collection that can store multiple values.",python list|mutable|ordered
+Q062,What is a tuple in Python?,"A tuple in Python is an ordered, immutable collection of items.",tuple|immutable|python
+Q063,What is a dictionary in Python?,A dictionary in Python stores key-value pairs and allows fast lookup by key.,dictionary|key value|python
+Q064,What is list comprehension?,"List comprehension is a compact syntax for building a list from an iterable, optionally with filtering.",list comprehension|iterable|python
+Q065,What is a Python generator?,A Python generator yields values lazily one at a time instead of building the whole result in memory.,generator|yield|python
+Q066,What is exception handling in Python?,"Exception handling lets Python programs catch and manage runtime errors using try, except, else, and finally.",exception|try except|python
+Q067,What is object-oriented programming in Python?,Object-oriented programming in Python organizes code around classes and objects that bundle state and behavior.,oop|classes|objects
+Q068,What is a decorator in Python?,A decorator is a callable that wraps another function or class to extend behavior without modifying the original code directly.,decorator|wrap|function
+Q069,What is lambda function in Python?,A lambda function is a small anonymous function defined with the lambda keyword.,lambda|anonymous|function
+Q070,What is the difference between append and extend in Python?,"append adds one item to the end of a list, while extend adds each item from another iterable.",append|extend|list
+Q071,What is supervised learning?,Supervised learning trains a model on labeled data so it can map inputs to known outputs.,supervised|labeled|model
+Q072,What is unsupervised learning?,Unsupervised learning finds structure or patterns in unlabeled data.,unsupervised|patterns|unlabeled
+Q073,What is overfitting?,Overfitting occurs when a model learns the training data too closely and performs poorly on unseen data.,overfitting|generalization|training
+Q074,What is underfitting?,Underfitting happens when a model is too simple to capture the underlying pattern in the data.,underfitting|simple|model
+Q075,What is cross validation?,Cross validation evaluates a model by training and testing it across multiple data splits.,cross validation|folds|evaluation
+Q076,What is feature engineering?,"Feature engineering is the process of creating, transforming, or selecting input variables to improve model performance.",feature engineering|features|model
+Q077,What is precision and recall?,"Precision measures how many predicted positives are correct, while recall measures how many actual positives are found.",precision|recall|classification
+Q078,What is logistic regression?,Logistic regression is a classification algorithm that models the probability of a categorical outcome.,logistic regression|probability|classification
+Q079,What is random forest?,Random forest is an ensemble method that combines many decision trees to improve predictive performance and robustness.,random forest|trees|ensemble
+Q080,What is gradient descent?,Gradient descent is an optimization method that updates model parameters step by step to minimize a loss function.,gradient descent|optimization|loss
+Q081,What is cloud computing?,"Cloud computing delivers computing services such as servers, storage, and software over the internet on demand.",cloud computing|internet|services
+Q082,What is virtualization?,Virtualization creates virtual versions of computing resources so multiple isolated systems can share one physical machine.,virtualization|virtual machines|hardware
+Q083,What is containerization?,"Containerization packages an application and its dependencies into a lightweight, portable unit.",containerization|portable|dependencies
+Q084,What is Docker?,"Docker is a platform for building, packaging, and running containers.",docker|containers|images
+Q085,What is Kubernetes?,"Kubernetes is an orchestration platform that automates deployment, scaling, and management of containers.",kubernetes|orchestration|containers
+Q086,What is serverless computing?,Serverless computing runs code on demand without requiring developers to manage servers directly.,serverless|functions|managed
+Q087,What is auto scaling?,Auto scaling automatically increases or decreases compute resources based on traffic or workload.,auto scaling|resources|traffic
+Q088,What is load balancing?,Load balancing distributes traffic across multiple servers to improve availability and performance.,load balancing|traffic|servers
+Q089,What is infrastructure as code?,Infrastructure as code manages infrastructure through versioned configuration files instead of manual setup.,infrastructure as code|automation|configuration
+Q090,What is the difference between IaaS and PaaS?,"IaaS provides raw infrastructure resources, while PaaS provides a managed platform for building and deploying applications.",iaas|paas|cloud
+Q091,What is encryption?,Encryption converts readable data into protected ciphertext so only authorized parties can recover it with the correct key.,encryption|ciphertext|key
+Q092,What is hashing?,Hashing converts data into a fixed-length digest used for integrity checks and secure comparisons.,hashing|digest|integrity
+Q093,What is phishing?,Phishing is a social engineering attack that tricks users into revealing credentials or sensitive information.,phishing|social engineering|credentials
+Q094,What is multi-factor authentication?,Multi-factor authentication requires two or more independent verification factors to confirm identity.,multi factor authentication|identity|security
+Q095,What is SQL injection?,SQL injection is an attack that manipulates database queries by inserting malicious SQL through user input.,sql injection|database|input
+Q096,What is cross-site scripting?,Cross-site scripting is a vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users.,cross site scripting|xss|scripts
+Q097,What is a firewall?,A firewall filters network traffic based on security rules to allow or block connections.,firewall|traffic|rules
+Q098,What is public key cryptography?,Public key cryptography uses a public key for encryption or verification and a private key for decryption or signing.,public key cryptography|public key|private key
+Q099,What is a VPN?,A VPN creates an encrypted tunnel between a device and a remote network over the internet.,vpn|encrypted tunnel|network
+Q100,What is least privilege principle?,The principle of least privilege means users and systems should have only the access necessary to perform their tasks.,least privilege|access control|security
+Q101,What is version control?,"Version control tracks changes to code over time so teams can collaborate, review history, and restore earlier versions.",version control|history|collaboration
+Q102,What is Git branching?,"Git branching lets developers create isolated lines of development for features, fixes, or experiments.",git branching|branches|git
+Q103,What is code review?,"Code review is the practice of examining code changes to improve quality, correctness, and maintainability.",code review|quality|changes
+Q104,What is continuous integration?,Continuous integration automatically builds and tests code changes frequently so issues are caught early.,continuous integration|build|tests
+Q105,What is continuous delivery?,Continuous delivery keeps software in a releasable state so deployments can happen quickly and safely.,continuous delivery|release|deployment
+Q106,What is unit testing?,Unit testing verifies that small pieces of code behave correctly in isolation.,unit testing|isolation|tests
+Q107,What is integration testing?,Integration testing checks whether multiple components work together correctly.,integration testing|components|tests
+Q108,What is refactoring?,Refactoring improves the internal structure of code without changing its external behavior.,refactoring|maintainability|code
+Q109,What is design pattern?,A design pattern is a reusable solution template for a common software design problem.,design pattern|reusable|software
+Q110,What is technical debt?,Technical debt is the future cost created by choosing a quick or limited solution instead of a cleaner long-term design.,technical debt|tradeoff|maintenance
+Q111,What is CPU cache?,"CPU cache is a small, fast memory near the processor that stores frequently used data and instructions to reduce access time.",cpu cache|memory|processor
+Q112,What is pipelining in processors?,Pipelining overlaps instruction stages so multiple instructions can be processed concurrently in different phases.,pipelining|instructions|stages
+Q113,What is RISC architecture?,RISC architecture uses a reduced set of simple instructions designed for fast execution.,risc|instructions|architecture
+Q114,What is CISC architecture?,CISC architecture uses a richer set of more complex instructions that can perform multiple operations in one command.,cisc|complex instructions|architecture
+Q115,What is instruction set architecture?,"Instruction set architecture defines the machine-level instructions, registers, data types, and behavior visible to software.",instruction set architecture|isa|software
+Q116,What is cache coherence?,Cache coherence ensures multiple caches in a system maintain a consistent view of shared memory.,cache coherence|shared memory|caches
+Q117,What is parallel processing?,Parallel processing uses multiple computing units at the same time to solve tasks faster.,parallel processing|multiple cores|performance
+Q118,What is SIMD?,"SIMD stands for single instruction, multiple data and allows one instruction to operate on many data values at once.",simd|vector|data
+Q119,What is bus in computer architecture?,"A bus is a communication pathway that transfers data, addresses, and control signals between hardware components.",bus|communication|hardware
+Q120,What is clock speed?,"Clock speed is the rate at which a processor cycles through operations, commonly measured in hertz.",clock speed|processor|hertz
+Q121,How do Python functions work?,"A Python function is a reusable block of code defined with def that can accept inputs, perform logic, and return a result.",python functions|def|return
+Q122,What is inheritance in Python?,Inheritance in Python lets a class reuse and extend the attributes and methods of another class.,inheritance|python classes|oop
+Q123,What is list slicing in Python?,"List slicing in Python extracts a portion of a list using start, stop, and step indices.",list slicing|python list|indices
+Q124,What is binary search tree?,A binary search tree is a binary tree in which each node stores a value greater than all values in its left subtree and less than all values in its right subtree.,binary search tree|bst|tree
+Q125,What is recursion in DSA?,Recursion in DSA is a problem-solving technique where a function solves a smaller instance of the same problem until a base case is reached.,recursion|dsa|base case
+Q126,What is time complexity?,Time complexity describes how the running time of an algorithm grows as the input size increases.,time complexity|algorithm|big o
+Q127,What is CSS Flexbox?,CSS Flexbox is a layout model that arranges elements in a flexible row or column and makes alignment and spacing easier.,css flexbox|layout|alignment
+Q128,What is JavaScript event delegation?,JavaScript event delegation attaches one event listener to a parent element so it can handle events from child elements through bubbling.,javascript|event delegation|bubbling
+Q129,What is responsive web design?,Responsive web design is the practice of building interfaces that adapt smoothly to different screen sizes and devices.,responsive web design|media queries|layout
+Q130,What is Python?,Python is a high-level interpreted programming language.,python
+Q131,What is a list in Python?,A list is a mutable ordered collection of elements.,a|list|in|python
+Q132,What is a tuple?,An immutable ordered collection in Python.,a|tuple
+Q133,What is a dictionary?,A collection of key-value pairs.,a|dictionary
+Q134,What is a set?,An unordered collection of unique elements.,a|set
+Q135,What is a loop?,A control structure for repeated execution.,a|loop
+Q136,Difference between list and tuple?,"Lists are mutable, tuples are immutable.",list|and|tuple
+Q137,What is recursion?,A function calling itself.,recursion
+Q138,What is a lambda function?,An anonymous inline function.,a|lambda|function
+Q139,What is OOP?,Object Oriented Programming paradigm.,oop
+Q140,What is a class?,Blueprint for creating objects.,a|class
+Q141,What is an object?,Instance of a class.,an|object
+Q142,What is inheritance?,Acquiring properties from another class.,inheritance
+Q143,What is polymorphism?,Same method behaving differently.,polymorphism
+Q144,What is encapsulation?,Hiding internal details.,encapsulation
+Q145,What is abstraction?,Showing only essential features.,abstraction
+Q146,What is a stack?,LIFO data structure.,a|stack
+Q147,What is a queue?,FIFO data structure.,a|queue
+Q148,What is a linked list?,A linear data structure with nodes.,a|linked|list
+Q149,What is an array?,Collection of elements stored in contiguous memory.,an|array
+Q150,What is time complexity?,Measure of algorithm efficiency.,time|complexity
+Q151,What is space complexity?,Memory usage of an algorithm.,space|complexity
+Q152,What is Big O notation?,Describes upper bound of complexity.,big|o|notation
+Q153,What is binary search?,Search algorithm for sorted arrays.,binary|search
+Q154,What is merge sort?,Divide and conquer sorting algorithm.,merge|sort
+Q155,What is quick sort?,Partition-based sorting algorithm.,quick|sort
+Q156,What is a tree?,Hierarchical data structure.,a|tree
+Q157,What is a binary tree?,Tree with max 2 children.,a|binary|tree
+Q158,What is BFS?,Breadth First Search traversal.,bfs
+Q159,What is DFS?,Depth First Search traversal.,dfs
+Q160,What is a graph?,Collection of nodes and edges.,a|graph
+Q161,What is hashing?,Mapping data to fixed-size values.,hashing
+Q162,What is a hash table?,Data structure using hashing.,a|hash|table
+Q163,What is collision?,When two keys map to same hash.,collision
+Q164,What is dynamic programming?,Optimizing using overlapping subproblems.,dynamic|programming
+Q165,What is memoization?,Caching results of function calls.,memoization
+Q166,What is greedy algorithm?,Chooses best option at each step.,greedy|algorithm
+Q167,What is a heap?,Complete binary tree structure.,a|heap
+Q168,What is a priority queue?,Queue based on priority.,a|priority|queue
+Q169,What is REST API?,Web service using HTTP methods.,rest|api
+Q170,What is HTTP?,Protocol for web communication.,http
+Q171,What is HTTPS?,Secure version of HTTP.,https
+Q172,What is GET method?,Retrieves data from server.,get|method
+Q173,What is POST method?,Sends data to server.,post|method
+Q174,What is PUT method?,Updates data.,put|method
+Q175,What is DELETE method?,Deletes data.,delete|method
+Q176,What is JSON?,Data format for APIs.,json
+Q177,What is HTML?,Markup language for web pages.,html
+Q178,What is CSS?,Style sheet language.,css
+Q179,What is JavaScript?,Client-side scripting language.,javascript
+Q180,What is DOM?,Document Object Model.,dom
+Q181,What is AJAX?,Asynchronous web requests.,ajax
+Q182,What is a framework?,Pre-built structure for development.,a|framework
+Q183,What is Flask?,Lightweight Python web framework.,flask
+Q184,What is Django?,Full-stack Python web framework.,django
+Q185,What is SQL?,Structured Query Language.,sql
+Q186,What is a database?,Organized data storage.,a|database
+Q187,What is a primary key?,Unique identifier.,a|primary|key
+Q188,What is a foreign key?,Reference to another table.,a|foreign|key
+Q189,What is normalization?,Reducing redundancy.,normalization
+Q190,What is denormalization?,Adding redundancy for speed.,denormalization
+Q191,What is pandas?,Python library for data analysis.,pandas
+Q192,What is numpy?,Library for numerical computing.,numpy
+Q193,What is matplotlib?,Visualization library.,matplotlib
+Q194,What is seaborn?,Advanced visualization library.,seaborn
+Q195,What is data cleaning?,Removing inconsistencies.,data|cleaning
+Q196,What is missing data?,Incomplete dataset values.,missing|data
+Q197,What is mean?,Average value.,mean
+Q198,What is median?,Middle value.,median
+Q199,What is mode?,Most frequent value.,mode
+Q200,What is variance?,Spread of data.,variance
+Q201,What is standard deviation?,Square root of variance.,standard|deviation
+Q202,What is correlation?,Relationship between variables.,correlation
+Q203,What is regression?,Predicting continuous values.,regression
+Q204,What is classification?,Predicting categories.,classification
+Q205,What is clustering?,Grouping similar data.,clustering
+Q206,What is supervised learning?,Learning with labeled data.,supervised|learning
+Q207,What is unsupervised learning?,Learning without labels.,unsupervised|learning
+Q208,What is overfitting?,Model fits noise.,overfitting
+Q209,What is underfitting?,Model too simple.,underfitting
+Q210,What is train-test split?,Dividing data for evaluation.,train-test|split
+Q211,What is cross-validation?,Repeated model evaluation.,cross-validation
+Q212,What is feature engineering?,Creating new features.,feature|engineering
+Q213,What is normalization in ML?,Scaling data.,normalization|in|ml
+Q214,What is standardization?,Mean=0 variance=1 scaling.,standardization
+Q215,What is KNN?,K-nearest neighbors algorithm.,knn
+Q216,What is SVM?,Support Vector Machine.,svm
+Q217,What is decision tree?,Tree-based model.,decision|tree
+Q218,What is random forest?,Ensemble of trees.,random|forest
+Q219,What is gradient boosting?,Sequential model improvement.,gradient|boosting
+Q220,What is neural network?,Model inspired by brain.,neural|network
+Q221,What is deep learning?,Multi-layer neural networks.,deep|learning
+Q222,What is NLP?,Natural Language Processing.,nlp
+Q223,What is tokenization?,Breaking text into parts.,tokenization
+Q224,What is stemming?,Reducing words to root.,stemming
+Q225,What is lemmatization?,Dictionary form reduction.,lemmatization
+Q226,What is API?,Interface for communication.,api
+Q227,What is version control?,Tracking code changes.,version|control
+Q228,What is Git?,Version control system.,git
+Q229,What is GitHub?,Code hosting platform.,github
+Q230,What is debugging?,Fixing errors.,debugging
+Q231,What is exception?,Runtime error handling.,exception
+Q232,What is try-except?,Error handling block.,try-except
+Q233,What is virtual environment?,Isolated Python setup.,virtual|environment
+Q234,What is pip?,Package installer.,pip
+Q235,What is module?,File with Python code.,module
+Q236,What is package?,Collection of modules.,package
+Q237,What is indentation?,Code structure in Python.,indentation
+Q238,What is slicing?,Extracting sequence parts.,slicing
+Q239,What is list comprehension?,Compact list creation.,list|comprehension
+Q240,What is generator?,Lazy iterator.,generator
+Q241,What is iterator?,Object for iteration.,iterator
+Q242,What is decorator?,Function wrapper.,decorator
+Q243,What is multithreading?,Parallel execution.,multithreading
+Q244,What is multiprocessing?,Parallel processes.,multiprocessing
+Q245,What is async programming?,Non-blocking execution.,async|programming
